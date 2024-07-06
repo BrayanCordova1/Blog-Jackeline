@@ -4,12 +4,14 @@ import LayoutPrincipal from '@layouts/LayoutPrincipal.astro';
 
 <LayoutPrincipal>
   <div class='grid gap-10 lg:gap-14'>
-    <h1 class='text-lg md:text-3xl lg:text-5xl 2xl:text-6xl font-black mt-5 mb-8'>
+    <h1 class='text-lg md:text-3xl lg:text-5xl 2xl:text-6xl font-black mt-5 mb-8 w-10/12 lg:w-3/4 mx-auto text-red-500'>
       Explorando la opresión femenino en las chicas de la Yogurtería
     </h1>
-    <div class='grid grid-cols-2'>
+    <div class='grid grid-cols-2 w-10/12 lg:w-3/4 mx-auto'>
       <div>
-        <h1 class='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>María Pilar Dughi Martínez</h1>
+        <h1 class='text-red-500 text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>
+          María Pilar Dughi Martínez
+        </h1>
         <p class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
           María Pilar Dughi Martínez (1956-2006) fue una de las cuentistas peruanas más reconocidas de la segunda mitad
           del siglo XX. Antes de que su pasión por la literatura la llevara a dedicarse a escribir, trabajó como
@@ -23,12 +25,14 @@ import LayoutPrincipal from '@layouts/LayoutPrincipal.astro';
       </div>
     </div>
 
-    <div class='grid grid-cols-2'>
+    <div class='grid grid-cols-2 w-10/12 lg:w-3/4 mx-auto'>
       <div>
         <img src='/chicas de la yogunteria.png' class='w-11/12 lg:w-10/12 h-auto mx-auto rounded-xl' />
       </div>
       <div>
-        <h1 class='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>Presentacion de libro</h1>
+        <h1 class='text-red-500 text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>
+          Presentacion de libro
+        </h1>
         <lo class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
           <li>Título de la obra: Las chicas de la Yogurtería</li>
           <li>Medio de divulgación: Cuento</li>
@@ -41,7 +45,7 @@ import LayoutPrincipal from '@layouts/LayoutPrincipal.astro';
         </lo>
       </div>
     </div>
-    <div>
+    <div class='w-10/12 lg:w-3/4 mx-auto'>
       <p class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
         En su cuento “Las chicas de la Yogurtería”, ya que aborda temas contemporáneos que resuenan en la actualidad. En
         este relato, la autora nos muestra una faceta en la cual el machismo es el pan de cada día. Este se ve reflejado
@@ -61,8 +65,25 @@ import LayoutPrincipal from '@layouts/LayoutPrincipal.astro';
         establecidas, promoviendo una visión más amplia y diversa de lo que significa ser mujer.
       </p>
     </div>
-    <div>
+    <div class='w-10/12 lg:w-3/4 mx-auto'>
       <img src='/clasicos.png' class='w-10/12 lg:w-12/12 h-auto mx-auto rounded-xl' />
+    </div>
+    <div class='grid grid-cols-2'>
+      <div>
+        <img src='/pensando.png' class='w-11/12 lg:w-10/12 h-auto mx-auto rounded-xl' />
+      </div>
+      <div>
+        <h1 class='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2 text-red-500'>
+          Presentacion de libro
+        </h1>
+        <p class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
+          ¿Cuál es nuestro objetivo? El objetivo de esta reseña es hacer reflexionar al lector sobre la representación
+          del machismo y la opresión hacia las mujeres en la obra de Pilar Dughi, centrándose específicamente en su
+          cuento "Las chicas de la Yogurtería." Este análisis pretende destacar cómo la autora aborda temas modernos que
+          hoy en día siguen sucediendo, ilustrando el machismo cotidiano de su época reflejado en la vida de Lucha y
+          contrastándolo con los cambios actuales en la dinámica laboral.
+        </p>
+      </div>
     </div>
   </div>
 </LayoutPrincipal>
