@@ -1,16 +1,63 @@
 ---
-
+import LayoutPrincipal from '@layouts/LayoutPrincipal.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<LayoutPrincipal>
+  <div class='grid gap-10 lg:gap-14'>
+    <h1 class='text-lg md:text-3xl lg:text-5xl 2xl:text-6xl font-black mt-5 mb-8'>
+      Explorando la opresion femenino en las chicas de la yogurteria
+    </h1>
+    <div class='grid grid-cols-2'>
+      <div>
+        <h1 class='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>María Pilar Dughi Martínez</h1>
+        <p class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
+          María Pilar Dughi Martínez (1956-2006) fue una de las cuentistas peruanas más reconocidas de la segunda mitad
+          del siglo XX. Antes de que su pasión por la literatura la llevara a dedicarse a escribir, trabajó como
+          psiquiatra en diversas ONG. Fue desde entonces que empezó a escribir relatos de las décadas de los 80. Luego,
+          estudió literatura en la Universidad Nacional Mayor de San Marcos y en la Pontificia Universidad Católica del
+          Perú.
+        </p>
+      </div>
+      <div>
+        <img src='/imagenchica.png' class='w-10/12 lg:w-5/12 h-auto mx-auto rounded-xl' />
+      </div>
+    </div>
+
+    <div class='grid grid-cols-2'>
+      <div>
+        <img src='/chicas de la yogunteria.png' class='w-11/12 lg:w-10/12 h-auto mx-auto rounded-xl' />
+      </div>
+      <div>
+        <h1 class='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-bold mb-2'>Presentacion de libro</h1>
+        <lo class='text-xs md:text-base lg:text-xl 2xl:text-3xl'>
+          <li>Título de la obra: Las chicas de la Yogurtería</li>
+          <li>Medio de divulgación: Cuento</li>
+          <li>Año de publicación: 2002</li>
+          <li>Temas: Narrativa Realista</li>
+          <li>
+            Propósito Comunicativo: En este cuento nos sumergimos en el machismo y opresión cotidiano de su época y
+            contrastádolo con los cambios actuales en la sociedad.
+          </li>
+        </lo>
+      </div>
+    </div>
+    <div>
+      <p>
+        En su cuento “Las chicas de la Yogurtería”, ya que aborda temas contemporáneos que resuenan en la actualidad. En
+        este relato, la autora nos muestra una faceta en la cual el machismo es el pan de cada día. Este se ve reflejado
+        en la vida de Lucha, la protagonista del cuento, quien viaja a Ayacucho por motivos laborales, lo que le permite
+        mantenerse económicamente y ser una miembro funcional de la sociedad e incluso se habla de la aparición del SIDA
+        en la provincia y como el pueblo se organiza para controlarlo, empezando por controlar a las mujeres. Sin
+        embargo, durante su estancia, enfrenta numerosos conflictos con la ciudad y sus habitantes, ya que no se "ajusta
+        a las expectativas tradicionales asignadas al rol de la mujer y lo femenino". En los años de la autora, las
+        mujeres, principalmente, cumplían el rol de casarse y ser amas de casa Si bien la situación ha cambiado en
+        algunos aspectos, estos estereotipos siguen vigentes en el imaginario colectivo. Esto se puede ver en la
+        literatura contemporánea, diversos autores han desafiado las expectativas tradicionales de género y explorado
+        nuevas perspectivas sobre el rol de la mujer en la sociedad Autoras como Virginia Woolf y Sylvia Plath han
+        abordado de manera innovadora temas relacionados con la identidad, la emancipación y la igualdad de género en
+        sus obras. A través de sus escritos, estas autoras han contribuido a redefinir y cuestionar las normas
+        establecidas, promoviendo una visión más amplia y diversa de lo que significa ser mujer.
+      </p>
+    </div>
+  </div>
+</LayoutPrincipal>
