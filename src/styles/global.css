@@ -3,58 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  .titulo-desktop {
-    @apply font-ReadexPro font-bold leading-10 text-[48px];
-  }
-  .subtitulo1-desktop {
-    @apply font-Segoe-UI-Bold text-[40px];
-  }
 }
 
-.contenido th,
-.contenido td {
-  border: 1px solid #a3a3a3;
-  padding: 8px;
-  text-align: center;
-  word-break: keep-all;
-}
-
-.contenido-admin {
-  @apply text-white;
-}
-
-.contenido-admin a {
-  color: rgb(19, 34, 117);
-  text-decoration: underline;
-}
-
-.contenido-admin p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.contenido-admin h2 {
-  font-size: 2rem;
-  line-height: 2.5rem;
-  margin-top: 30px;
-  margin-bottom: 5px;
-}
-
-.contenido-admin h3 {
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-}
-
-.contenido-admin h4 {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 12px;
-}
 .bg-overlay {
   background: rgba(255, 0, 0, 0.5);
   position: absolute;
