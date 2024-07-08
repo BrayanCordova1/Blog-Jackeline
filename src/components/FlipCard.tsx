@@ -27,18 +27,18 @@ const FlipCard = ({
             <p className='text-xs md:text-base lg:text-xl 2xl:text-3xl italic'>{description}</p>
           </div>
           <div>
-            <button className='bg-red-700 group-hover:bg-red-800 group-hover:text-white duration-700 border-[1px] border-white p-3 rounded-lg text-xs md:text-base lg:text-xl 2xl:text-3xl bottom-4 '>
+            <button className='bg-red-700 group-hover:bg-red-800 group-hover:text-white duration-700 border-[1px] border-white p-3 rounded-lg text-xs md:text-base lg:text-xl 2xl:text-2xl bottom-4 '>
               Ver interpreacion
             </button>
           </div>
         </div>
-        <div className='flip-card-back px-2 border-2 border-red-500 rounded-xl group grid grid-rows-6 p-2'>
+        <div className='flip-card-back px-2 border-2 border-red-500 rounded-xl group grid grid-rows-12 md:grid-rows-7 p-2'>
           <div>
             <h1 className='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-black text-red-500 mb-1'>
               INTERPRETACIÓN
             </h1>
           </div>
-          <div className=' row-span-4'>
+          <div className=' row-span-10 md:row-span-5'>
             <p className='text-xs md:text-sm lg:text-base 2xl:text-xl  text-red-500'>{backText}</p>
             {backText2 && <p className='text-xs md:text-sm lg:text-base 2xl:text-xl  text-red-500'>{backText2}</p>}
           </div>
