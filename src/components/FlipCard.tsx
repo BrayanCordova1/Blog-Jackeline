@@ -24,7 +24,7 @@ const FlipCard = ({
             <h2 className='text-base md:text-2xl lg:text-4xl 2xl:text-5xl font-black'>{title}</h2>
           </div>
           <div className=' row-span-4'>
-            <p className='text-xs md:text-base lg:text-xl 2xl:text-3xl italic'>{description}</p>
+            <p className='text-xs md:text-base lg:text-xl 2xl:text-2xl italic'>{description}</p>
           </div>
           <div>
             <button className='bg-red-700 group-hover:bg-red-800 group-hover:text-white duration-700 border-[1px] border-white p-3 rounded-lg text-xs md:text-base lg:text-xl 2xl:text-2xl bottom-4 '>
